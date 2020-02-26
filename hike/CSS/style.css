@@ -1,0 +1,29 @@
+
+
+body {
+    margin: 0;
+    background-color: #333A35;
+    width: 100vw;
+}
+
+.mainContainer {
+    width: 95%;
+}
+
+.pageHead {
+	color: white;
+}
+
+.navBar {
+    display: flex;
+}
+
+.navBar p {
+	margin-right: 10px;
+	max-height: 50px;
+	overflow: none;
+}
+
+.navBar i {
+    color: #ECA419;
+}
