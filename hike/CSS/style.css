@@ -16,6 +16,112 @@ body {
 /*T's end*/
 
 /*Jackie's start*/
+.article-container {
+    /* display: flex; */
+    /* padding: 15px 20px 100px 50px; */
+    margin: auto;
+    width: 1250px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    /* border: 10px; */
+    /* justify-content: center; */
+    text-align: justify;
+    
+    
+    }
+    
+    .box-one {
+    display: flex;
+    margin-top: 30px;
+    /* background-color: chocolate; */
+    height: 200px;
+    /* width: 290px; */
+    border: 3.5px white solid
+    }
+ 
+    
+    .box-two {
+        display: flex;
+        margin-top: 30px;
+        /* background-color: blue; */
+        height: 200px;
+        /* width: 290px; */
+        border: 3.5px white solid
+    }
+    
+    .box-three {
+        display: flex;
+        margin-top: 30px;
+        /* background-color: crimson; */
+        height: 200px;
+        /* width: 290px; */
+        border: 3.5px white solid
+    }
+    
+    .box-four {
+        display: flex;
+        margin-top: 30px;
+        /* background-color: darkkhaki; */
+        height: 200px;
+        /* width: 290px; */
+        border: 3.5px white solid
+    }
+.text-container {
+
+    /* display: flex; */
+    justify-content: center;
+    /* background-color: white; */
+    /* margin-top: 225px; */
+    /* margin-right: 85px; */
+    /* position: absolute; */
+    /* width: 1250px; */
+    /* justify-items: auto; */
+    border: 3.5px white solid
+    
+    
+}
+    .text-one {
+     /* display: flex; */
+     height: 80px;
+     width: 280px;
+     /* background-color: blueviolet; */
+     align-content: center;
+     text-align: center;
+     /* margin: 15px; */
+     /* border: 3.5px; */
+    margin-top: -12px;
+ }
+ .text-two {
+    /* display: flex; */
+    height: 80px;
+    width: 280px;
+    /* background-color: olivedrab; */
+    align-content: center;
+    text-align: center;
+    /* margin: 15px; */
+    margin-top: -12px;
+ }
+ .text-three {
+    /* display: flex; */
+    height: 80px;
+    width: 280px;
+    /* background-color: orange; */
+    align-content: center;
+    text-align: center;
+    /* margin: 15px; */
+    margin-top: -12px;
+ }
+ .text-four {
+    /* display: flex; */
+    height: 80px;
+    width: 280px;
+    /* background-color: palevioletred; */
+    align-content: center;
+    text-align: center;
+    /* margin: 15px; */
+    margin-top: -12px;
+ }
 
 
 /*jackie's end*/
