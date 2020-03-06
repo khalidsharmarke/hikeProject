@@ -6,7 +6,7 @@ body {
 
 .mainContainer {
     width: 95%;
-    font-family:'Muli';
+    font-family: 'Muli';
 }
 
 /*T's start*/
@@ -21,28 +21,67 @@ body {
     font-size: large;
     padding: 20px;
 }
-.container {
-    display: flex;
-}
 
-.features .column {
+.featuresContainer {
     display: flex;
     width: 100%;
-    justify-content: flex-start;
+    color: white;
+    height: 50vh;
+    font-size: 2em;
+}
+
+.featurescolumn {
+    display: flex;
+    justify-content: flex-end;
     flex-direction: column;
+    background-image: url(../image/desert780x477.jpg);
+    width: calc(100%/3*2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.columnOneText {
+    margin: 50px 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #eca237;
 }
 
 
-.features .column2 {
+.featurescolumn2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 315px;
+    width: calc(100%/3);
+}
+
+.featureTopImage {
+    background-image: url(../image/stream420x240.jpg);
+}
+
+.featureBotImage {
+    background-image: url(../image/relax420x237.jpg);
+}
+
+.features2Text {
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: 50%;
+    padding: 50px;
+}
+
+.features2Text h5 {
+    margin: 0;
 }
 
 
-.features .text-block {
+
+/*.features .text-block {
     position: absolute;
     top: 330px;
     right: 20px;
@@ -50,7 +89,7 @@ body {
     padding-left: 20px;
     padding-right: 860px;
     font-size: xx-large;
-    font-family: 'Times New Roman'; 
+    font-family: 'Times New Roman';
 
 }
 
@@ -87,156 +126,204 @@ body {
     border-bottom: 2px solid #ECA419;
     padding-bottom: 63px;
 
-
-}
-
-
+*/
 
 /*T's end*/
 
 /*Jackie's start*/
 .article-container {
-    /* display: flex; */
-    /* padding: 15px 20px 100px 50px; */
-    margin: auto;
-    width: 1250px;
-    height: 350px;
+    width: 100%;
     background-color: white;
     display: flex;
-    /* border: 10px; */
-    /* justify-content: center; */
-    text-align: justify;
-    
-    
-    }
-    
-    .box-one {
+    justify-content: space-evenly;
+    font-size: 1.4em;
+}
+
+.articleBox {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 24%;
+}
+
+.articleBox p {
+    margin: 0px;
+}
+
+.articleImage {
+    width: auto;
+    height: 80%;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.image-one {
+    background-image: url(../image/recipes.jpg);
+}
+
+.image-two {
+    background-image: url(../image/tent.jpg);
+}
+
+.image-three {
+    background-image: url(../image/candles.jpg);
+}
+
+.image-four {
+    background-image: url(../image/backpacks.jpg);
+}
+
+/*
+.box-one {
     display: flex;
     margin-top: 30px;
-    /* background-color: chocolate; */
+     background-color: chocolate; 
     height: 200px;
-    /* width: 290px; */
-    border: 3.5px white solid
-    }
- 
-    
-    .box-two {
-        display: flex;
-        margin-top: 30px;
-        /* background-color: blue; */
-        height: 200px;
-        /* width: 290px; */
-        border: 3.5px white solid
-    }
-    
-    .box-three {
-        display: flex;
-        margin-top: 30px;
-        /* background-color: crimson; */
-        height: 200px;
-        /* width: 290px; */
-        border: 3.5px white solid
-    }
-    
-    .box-four {
-        display: flex;
-        margin-top: 30px;
-        /* background-color: darkkhaki; */
-        height: 200px;
-        /* width: 290px; */
-        border: 3.5px white solid
-    }
+     width: 290px; 
+    border: 3.5px white solid;
+    width: 25%;
+}
+
+
+.box-two {
+    display: flex;
+    margin-top: 30px;
+     background-color: blue; 
+    height: 200px;
+     width: 290px; 
+    border: 3.5px white solid;
+    width: 25%;
+}
+
+.box-three {
+    display: flex;
+    margin-top: 30px;
+     background-color: crimson; 
+    height: 200px;
+     width: 290px; 
+    border: 3.5px white solid;
+    width: 25%;
+}
+
+.box-four {
+    display: flex;
+    margin-top: 30px;
+     background-color: darkkhaki; 
+    height: 200px;
+     width: 290px; 
+    border: 3.5px white solid;
+    width: 25%;
+}
+
 .text-container {
 
-    /* display: flex; */
+     display: flex; 
     justify-content: center;
-    /* background-color: white; */
-    /* margin-top: 225px; */
-    /* margin-right: 85px; */
-    /* position: absolute; */
-    /* width: 1250px; */
-    /* justify-items: auto; */
+     background-color: white; 
+     margin-top: 225px; 
+     margin-right: 85px; 
+     position: absolute; 
+     width: 1250px; 
+     justify-items: auto; 
     border: 3.5px white solid
-    
-    
 }
-    .text-one {
-     /* display: flex; */
-     height: 80px;
-     width: 280px;
-     /* background-color: blueviolet; */
-     align-content: center;
-     text-align: center;
-     /* margin: 15px; */
-     /* border: 3.5px; */
-    margin-top: -12px;
- }
- .text-two {
-    /* display: flex; */
-    height: 80px;
-    width: 280px;
-    /* background-color: olivedrab; */
-    align-content: center;
-    text-align: center;
-    /* margin: 15px; */
-    margin-top: -12px;
- }
- .text-three {
-    /* display: flex; */
-    height: 80px;
-    width: 280px;
-    /* background-color: orange; */
-    align-content: center;
-    text-align: center;
-    /* margin: 15px; */
-    margin-top: -12px;
- }
- .text-four {
-    /* display: flex; */
-    height: 80px;
-    width: 280px;
-    /* background-color: palevioletred; */
-    align-content: center;
-    text-align: center;
-    /* margin: 15px; */
-    margin-top: -12px;
- }
 
+.text-one {
+     display: flex; 
+    height: 80px;
+    width: 280px;
+     background-color: blueviolet; 
+    align-content: center;
+    text-align: center;
+     margin: 15px; 
+     border: 3.5px; 
+    margin-top: -12px;
+}
+
+.text-two {
+     display: flex; 
+    height: 80px;
+    width: 280px;
+     background-color: olivedrab; 
+    align-content: center;
+    text-align: center;
+     margin: 15px; 
+    margin-top: -12px;
+}
+
+.text-three {
+     display: flex; 
+    height: 80px;
+    width: 280px;
+     background-color: orange; 
+    align-content: center;
+    text-align: center;
+     margin: 15px; 
+    margin-top: -12px;
+}
+
+.text-four {
+     display: flex; 
+    height: 80px;
+    width: 280px;
+     background-color: palevioletred; 
+    align-content: center;
+    text-align: center;
+     margin: 15px; 
+    margin-top: -12px;
+}
+*/
 
 /*jackie's end*/
 
-.pageHead {
-	color: white;
-}
-
-.gearContainer{
+.gearContainer {
     background-color: #dfd6c8;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.gearTitle{
+.gearTitle {
     color: #eca237;
     width: 80%;
     text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em
 }
 
-.gearTile{
+.gearTitle h2{
+    padding: 20px;
+}
+
+.gearTile {
     width: 80%;
     background-color: white;
     display: flex;
     margin-bottom: 5px;
     padding: 20px;
+    height: 150px;
 }
 
-.tileImage{
+.tileImage {
     width: 40%;
+    background-size: cover;
 }
-.imageOne{
+
+.imageOne {
     background-image: url(../image/chairs.jpg);
 }
-.tileText{
+
+.tileText {
     width: 60%;
     padding: 10px;
+}
+
+.badge {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
