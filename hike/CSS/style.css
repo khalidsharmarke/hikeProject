@@ -1,56 +1,80 @@
 body {
     margin: 0;
     background-color: #333A35;
-    width: 100vw;
+    width: 99vw;
+    height: 300vh;
 }
 
 .mainContainer {
     width: 95%;
-    font-family: 'Muli';
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
 }
 
 /*T's start*/
 .navbar {
-    background-color: #333A35;
     display: flex;
+    color: white;
+    height: 3%;
 }
 
-.navbar a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: large;
-    padding: 20px;
+#companyLogo {
+    background-image: url(../image/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 4.5%;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0% 1%;
+/*    width: 5%;*/
+}
+
+.styledLink {
+    color: #eca237;
 }
 
 .featuresContainer {
     display: flex;
     width: 100%;
     color: white;
-    height: 50vh;
-    font-size: 2em;
+    height: 25%;
+    font-size: 1.8em;
 }
 
 .featurescolumn {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    background-image: url(../image/desert780x477.jpg);
     width: calc(100%/3*2);
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.featureLeft {
+    background-image: url(../image/desert780x477.jpg);
 }
 
 .columnOneText {
-    margin: 50px 50px;
+    text-align: center;
     height: 50%;
     display: flex;
-    flex-direction: column-reverse;
+    align-items: flex-end;
+    padding: 8%;
+}
+
+#featureLeftText {
+    margin: 0;
     border-width: 0px 0px 2px 0px;
     border-style: solid;
     border-color: #eca237;
+    padding-bottom: 5%;
 }
-
 
 .featurescolumn2 {
     display: flex;
@@ -133,18 +157,18 @@ body {
 /*Jackie's start*/
 .article-container {
     width: 100%;
+    height: 15%;
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
-    font-size: 1.4em;
+    justify-content: space-around;
+    /*align-items: center;*/
 }
 
 .articleBox {
-    margin: 50px 0px;
+    margin: 2% 1%; 
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 24%;
+    width: 23%;
 }
 
 .articleBox p {
@@ -152,10 +176,11 @@ body {
 }
 
 .articleImage {
-    width: auto;
-    height: 80%;
+    height: 70%;
     margin-bottom: 10px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .image-one {
@@ -295,7 +320,7 @@ body {
     font-size: 1.5em
 }
 
-.gearTitle h2{
+.gearTitle h2 {
     padding: 20px;
 }
 
